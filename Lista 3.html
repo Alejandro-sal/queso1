@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Listas candidatas para el consejo estudiantil 2024</title>
+  <style>
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    background: lightgray;
+    font-family: arial, helvetica, sans-serif;
+  }
+
+  #container {
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid gray;
+  }
+
+  header {
+    background: lightgreen;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+  }
+
+  nav {
+    background: lightblue;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  nav ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+  }
+
+  .clearfix {
+    clear: both;
+  }
+
+  #content {
+    float: left;
+    width: 80%;
+    background: pink;
+    min-height: 400px;
+  }
+
+  aside {
+    float: left;
+    width: 20%;
+    background: white;
+    min-height: 143px;
+  }
+
+  footer {
+    background: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  .article {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .image-container {
+    float: right;
+    width: 210px;
+  }
+
+  .image-container img {
+    width: 100%;
+  }
+
+  .google-search {
+    margin-top: 20px;
+  }
+
+  .youtube-video {
+    margin-top: 20px;
+  }
+
+  </style>
+</head>
+<body>
+   <div id="container">
+      <header>
+         <h1> Listas candidatas para el consejo estudiantil 2024 </h1>
+      </header>
+
+      <nav>
+         <ul>
+            <li>
+               <a href="Inicio.html"> Inicio </a>
+            </li>
+            <li>
+               <a href="Lista 1.html"> Lista 1 </a>
+            </li>
+            <li>
+               <a href="Lista 2.html"> Lista 2 </a>
+            </li>
+            <li>
+               <a href="Lista 3.html"> Lista 3 </a>
+            </li>
+         </ul>
+      </nav>
+
+      <div class="clearfix"></div>
+
+      <section id="content">
+        <article class="article">
+            <h1>Lista 3</h1>
+            <p>Integrantes</p> 
+            <li> Isabella Rojas - Presidente </li>
+            <li> Sofía Martinez - Vicepresidente </li>
+            <li> Daira Gonzales - Secretaria </li>
+            <li> Mikela Medina  - Tesorera </li>
+            <p>Propuestas</p>
+            <li> 2 combos por bimestre </li>
+            <li> Nuevo premio para la antorchita: full day en pachacamac para toda la promoción</li>
+            <li> 5 nuevos clubes para presentaciones en el dia del maestro </li>
+            <li> Venta de rosas rojas y amarillas </li>
+            <li> Transmisión de peliculas gratuitamente </li>
+            <li> Trivias de cultura general, entre otros </li>
+            <li> Karoke en el almuerzo </li>   
+        </article>
+
+         <article class="article">
+            <h1>Llena tus datos</h1>
+            <form>
+               <label for="nombre">Nombre:</label>
+               <input type="text" id="nombre" name="nombre" required>
+
+               <label for="apellido">Apellido:</label>
+               <input type="text" id="apellido" name="apellido" required>
+
+               <label for="ciudad">Ciudad:</label>
+               <input type="text" id="ciudad" name="ciudad" required>
+
+               <label for="pais">País:</label>
+               <input type="text" id="pais" name="pais" required>
+
+               <input type="submit" value="Enviar">
+            </form>
+         </article>
+         <div class="youtube-video">
+          <iframe width="280" height="157.5" src="https://www.youtube.com/embed/HnklSW6KNIo" frameborder="0" allowfullscreen></iframe>
+         </div>
+      </section>
+
+      <div class="image-container">
+        <img src="juraconsejoestudiantil.jpg" alt="Juramentación del Consejo">
+        <img src="ventadechurrosconsejo.jpg" alt="Actividades realizadas por el consejo estudiantil">
+      </div>
+     
+
+      <aside>
+         <h2>Barra de búsqueda</h2>
+
+         <div class="google-search">
+            <form action="https://www.google.com/search" method="GET" target="_blank">
+               <input type="text" name="q" placeholder="Buscar en Google">
+               <input type="submit" value="Buscar">
+            </form>
+         </div>
+      </aside>
+
+      <div class="clearfix"></div>
+
+      <footer>
+         Desarrollo de HTML por: Alejandro Salas Salazar
+      </footer>
+   </div>
+</body>
+</html>
